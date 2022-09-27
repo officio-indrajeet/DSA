@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class IsArraySorted {
+public class LinearSearch {
 
     public static void main(String[] args) {
 
@@ -16,15 +16,21 @@ public class IsArraySorted {
             arr[i] = sc.nextInt();
         }
 
-        boolean flag = true;
+        int target = sc.nextInt();
 
-        for(int i=1;i<size;i++) {
-            if(arr[i] < arr[i-1]) {
-                flag = false;
+        boolean flag = false;
+
+        for(int i=0;i<size;i++) {
+
+            if(arr[i] == target) {
+                flag = true;
+                System.out.println(true);
                 break;
             }
+
         }
 
-        System.out.println(flag);
+        if(flag == false)
+            System.out.println(false);
     }
 }
