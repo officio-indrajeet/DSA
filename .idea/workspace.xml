@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="422873f4-b917-4cdc-9857-aad7bbbbed0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/DeleteElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/IsArraySorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/LargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MoveAllZerosToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SecondLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SmallestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/CountNoOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/FactorialOfANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/GCDOfTwoNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/PowerOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/ReverseANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TimeComplexity/HowToTakeInputFromUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TimeComplexity/SumOfNaturalNumber.java" afterDir="false" />
+    <list default="true" id="422873f4-b917-4cdc-9857-aad7bbbbed0e" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/CeilOfSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FloorOfSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/PeakElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +38,9 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IsArraySorted">
-    <configuration name="IsArraySorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.IsArraySorted" />
+  <component name="RunManager" selected="Application.SnakePattern">
+    <configuration name="LeftRotateAnArrayByDPlaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.LeftRotateAnArrayByDPlaces" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +52,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.LargestElement" />
+    <configuration name="LeftRotateByOnePlace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.LeftRotateByOnePlace" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveAllZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.MoveAllZerosToEnd" />
+    <configuration name="PrintElementsOfAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.PrintElementsOfAnArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -94,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SecondLargest" />
+    <configuration name="SnakePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrix.SnakePattern" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SmallestElement" />
+    <configuration name="TakingInputFromUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrix.TakingInputFromUser" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IsArraySorted" />
-        <item itemvalue="Application.MoveAllZerosToEnd" />
-        <item itemvalue="Application.SecondLargest" />
-        <item itemvalue="Application.SmallestElement" />
-        <item itemvalue="Application.LargestElement" />
+        <item itemvalue="Application.SnakePattern" />
+        <item itemvalue="Application.PrintElementsOfAnArray" />
+        <item itemvalue="Application.TakingInputFromUser" />
+        <item itemvalue="Application.LeftRotateAnArrayByDPlaces" />
+        <item itemvalue="Application.LeftRotateByOnePlace" />
       </list>
     </recent_temporary>
   </component>
@@ -140,8 +124,39 @@
       <updated>1660270669049</updated>
       <workItem from="1660270670341" duration="9107000" />
       <workItem from="1660966041106" duration="3579000" />
-      <workItem from="1661024153018" duration="2592000" />
+      <workItem from="1661024153018" duration="6507000" />
+      <workItem from="1661117501141" duration="1292000" />
+      <workItem from="1661575046829" duration="1696000" />
+      <workItem from="1662434829912" duration="4219000" />
+      <workItem from="1663041424617" duration="2028000" />
+      <workItem from="1663044165800" duration="891000" />
+      <workItem from="1663045061942" duration="3744000" />
+      <workItem from="1664008052824" duration="671000" />
+      <workItem from="1664252370869" duration="4115000" />
+      <workItem from="1664425031819" duration="2283000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1661053288549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661053288549</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1661053322645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661053322645</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1664261827735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664261827735</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,5 +172,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
