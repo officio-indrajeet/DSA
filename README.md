@@ -1,4 +1,4 @@
-# Data Structures And algorithms:
+# Data Structures And Algorithms:
 
 ### Arrays: 
 1. How to input from user
